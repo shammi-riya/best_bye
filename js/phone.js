@@ -18,6 +18,8 @@ function shawData(Alldata,datalimit){
     }
 
     const Container = document.getElementById("Container");
+    document.getElementById("Container").innerHTML =""
+
     Alldata.forEach(data=>{
         console.log(data);
     const myDiv = document.createElement("div");
